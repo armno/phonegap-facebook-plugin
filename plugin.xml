@@ -20,14 +20,6 @@
 
   <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
 
-  <config-file target="config.xml" parent="/*">
-    <access origin="https://m.facebook.com" />
-    <access origin="https://graph.facebook.com" />
-    <access origin="https://api.facebook.com" />
-    <access origin="https://*.fbcdn.net" />
-    <access origin="https://*.akamaihd.net" />
-  </config-file>
-
   <engines>
     <engine name="cordova" version=">=2.9.0" />
   </engines>
