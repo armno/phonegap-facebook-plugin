@@ -27,7 +27,7 @@
   <!-- android -->
   <platform name="android">
 
-    <config-file target="res/xml/config.xml" parent="plugins">
+    <config-file target="res/xml/config.xml" parent="/*">
       <feature name="org.apache.cordova.facebook.Connect">
         <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
       </feature>
