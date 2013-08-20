@@ -65,6 +65,7 @@
   </platform>
 
   <!-- ios -->
+  <!--
   <platform name="ios">
 
     <config-file target="config.xml" parent="plugins">
@@ -92,15 +93,15 @@
         </dict>
       </array>
     </config-file>
-
+-->
     <!-- release facebook 3.5.2 framework -->
-    <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Release.a" framework="true" />
+    <!-- <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Release.a" framework="true" /> -->
 
     <!-- debug facebook 3.5.2 framework  -->
     <!-- <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Debug.a" framework="true" /> -->
 
     <!-- facebook header files -->
-    <header-file src="src/ios/headers/FBAccessTokenData.h" target-dir="facebook" />
+    <!-- <header-file src="src/ios/headers/FBAccessTokenData.h" target-dir="facebook" />
     <header-file src="src/ios/headers/FBAppCall.h" target-dir="facebook" />
     <header-file src="src/ios/headers/FBAppLinkData.h" target-dir="facebook" />
     <header-file src="src/ios/headers/FBCacheDescriptor.h" target-dir="facebook" />
@@ -134,18 +135,18 @@
     <header-file src="src/ios/headers/FBViewController.h" target-dir="facebook" />
     <header-file src="src/ios/headers/FBWebDialogs.h" target-dir="facebook" />
     <header-file src="src/ios/headers/FacebookSDK.h" target-dir="facebook" />
-    <header-file src="src/ios/headers/NSError+FBError.h" target-dir="facebook" />
+    <header-file src="src/ios/headers/NSError+FBError.h" target-dir="facebook" /> -->
 
     <!-- facebook resource bundles -->
-    <resource-file src="src/ios/resources/FacebookSDKResources.bundle" />
-    <resource-file src="src/ios/resources/FBUserSettingsViewResources.bundle" />
+<!--     <resource-file src="src/ios/resources/FacebookSDKResources.bundle" />
+    <resource-file src="src/ios/resources/FBUserSettingsViewResources.bundle" /> -->
 
     <!-- system frameworks -->
-    <framework src="libsqlite3.dylib" />
+<!--     <framework src="libsqlite3.dylib" />
     <framework src="Social.framework" weak="true" />
     <framework src="Accounts.framework" weak="true" />
     <framework src="AdSupport.framework" weak="true" />
     <framework src="Security.framework" weak="true" />
 
-  </platform>
+  </platform> -->
 </plugin>
